@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "swed32/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/swed32.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/swed32.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "swed32/1.0.4": {
+      "sha512": "t6osC20wck8X80JsNcTU6ISNOcGQwHwFIuPhE2TlqXzP/k5y21p5bSLDnnhVIUtTfMbuXGwSkg6nz62y0kT6fg==",
+      "type": "package",
+      "path": "swed32/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "New Project (15).png",
+        "lib/net6.0/swed32.dll",
+        "swed32.1.0.4.nupkg.sha512",
+        "swed32.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "swed32 >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\ACMenu2 - Copia (2) - Copia - Copia\\ACMenu2\\ACMenu2.csproj",
+      "projectName": "ACMenu2",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\ACMenu2 - Copia (2) - Copia - Copia\\ACMenu2\\ACMenu2.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\ACMenu2 - Copia (2) - Copia - Copia\\ACMenu2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "swed32": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
